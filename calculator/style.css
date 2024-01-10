@@ -2,7 +2,10 @@
     text-align: center;
     border-bottom: 1px ridge rgba(255, 0, 0, 0.308);
 }
-
+body{
+    margin: 0px;
+    width: 100vw;
+}
 .main{
     background-color: rgba(0, 102, 128, 0.315);
     display: flex;
@@ -12,8 +15,6 @@
     background-color: aliceblue;
     flex:1;
     height: fit-content;
-
-
 }
 .guide{
     background-color: aliceblue;
