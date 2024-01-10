@@ -1,20 +1,26 @@
 .header{
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    height: 5vh;
+    min-height: 80px;
     border-bottom: 1px ridge rgba(255, 0, 0, 0.308);
 }
-body{
-    margin: 0px;
-    width: 100vw;
-}
+
 .main{
     background-color: rgba(0, 102, 128, 0.315);
     display: flex;
-    height: 100%;
 }
 .calc{
     background-color: aliceblue;
     flex:1;
     height: fit-content;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .guide{
     background-color: aliceblue;
@@ -24,9 +30,7 @@ body{
 .mainCalc{
     background-color:cadetblue;
     border-radius: 24px;
-    margin: 60px;
     margin-top: 30px;
-    margin-left: 320px;
     width: 450px;
     height: 496px;
 }
